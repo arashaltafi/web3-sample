@@ -3,7 +3,7 @@ import React from 'react'
 
 const HomePage = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+    <div className="flex flex-col gap-16 items-center justify-center min-h-screen bg-gray-900">
       <h1 className="text-4xl font-bold mb-8">Web3 Donation Samples</h1>
       <div className="flex space-x-4">
         <Link

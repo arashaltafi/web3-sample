@@ -37,9 +37,12 @@ const BitcoinSample: React.FC = () => {
     };
 
     return (
-        <div className="min-h-screen bg-gray-50 p-8">
-            <Link href="/">
-                <a className="text-blue-600 hover:underline">← Back Home</a>
+        <div className="min-h-screen bg-gray-900 p-8">
+            <Link
+                href="/"
+                className="text-blue-600 hover:underline"
+            >
+                ← Back Home
             </Link>
             <h1 className="text-3xl font-bold my-4">Bitcoin Donation Sample</h1>
             <div>
