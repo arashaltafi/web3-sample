@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   webpack: (config) => {
     config.experiments = {
       layers: true, // Enable the layers experiment
-      // Include other experiments if needed
+      asyncWebAssembly: true, // Enable asynchronous WebAssembly support
     };
     return config;
   },
