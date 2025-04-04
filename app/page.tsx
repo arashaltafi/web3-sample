@@ -8,12 +8,12 @@ const HomePage = () => {
       <div className="flex space-x-4">
         <Link
           href="/ether"
-          className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+          className="px-4 py-2 bg-blue-500 !text-white rounded hover:bg-blue-600"
         >
           Ether Sample
         </Link>
         <Link
-          className="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600"
+          className="px-4 py-2 bg-green-500 !text-white rounded hover:bg-green-600"
           href="/bitcoin"
         >
           Bitcoin Sample
