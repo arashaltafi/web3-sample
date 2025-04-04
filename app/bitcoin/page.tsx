@@ -40,7 +40,7 @@ const BitcoinSample: React.FC = () => {
         <div className="min-h-screen bg-gray-900 p-8">
             <Link
                 href="/"
-                className="text-blue-600 hover:underline"
+                className="!text-blue-600 hover:underline"
             >
                 ← Back Home
             </Link>
@@ -62,9 +62,9 @@ const BitcoinSample: React.FC = () => {
                         Donate
                     </button>
                 </div>
-                {txStatus && <p className="mt-4 text-sm text-gray-700">{txStatus}</p>}
+                {txStatus && <p className="mt-4 text-sm !text-gray-700">{txStatus}</p>}
             </div>
-            <p className="mt-8 text-center text-gray-500">
+            <p className="mt-8 text-center !text-gray-500">
                 User donation status and details will be displayed here.
             </p>
         </div>

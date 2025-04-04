@@ -65,13 +65,13 @@ const EtherSample: React.FC = () => {
         <div className="min-h-screen bg-gray-900 p-8">
             <Link
                 href="/"
-                className="text-blue-600 hover:underline"
+                className="!text-blue-600 hover:underline"
             >
                 ← Back Home
             </Link>
             <h1 className="text-3xl !text-white font-bold my-4">Ether Donation Sample</h1>
             {!isWeb3 && (
-                <p className="text-red-500">No Web3 provider detected. Please install MetaMask.</p>
+                <p className="!text-red-500">No Web3 provider detected. Please install MetaMask.</p>
             )}
             {isWeb3 && !account && (
                 <button
@@ -91,14 +91,14 @@ const EtherSample: React.FC = () => {
                             placeholder="Enter donation wallet address"
                             value={donationAddress}
                             onChange={(e) => setDonationAddress(e.target.value)}
-                            className="px-4 py-2 border rounded w-full mb-2"
+                            className="px-4 py-2 border rounded w-full mb-2 !text-white"
                         />
                         <input
                             type="text"
                             placeholder="Enter donation amount in ETH"
                             value={donationAmount}
                             onChange={(e) => setDonationAmount(e.target.value)}
-                            className="px-4 py-2 border rounded w-full mb-2"
+                            className="px-4 py-2 border rounded w-full mb-2 !text-white"
                         />
                         <button
                             onClick={sendDonation}
@@ -107,10 +107,10 @@ const EtherSample: React.FC = () => {
                             Donate
                         </button>
                     </div>
-                    {txStatus && <p className="mt-4 text-sm text-gray-700">{txStatus}</p>}
+                    {txStatus && <p className="mt-4 text-sm !text-gray-700">{txStatus}</p>}
                 </div>
             )}
-            <p className="mt-8 text-center text-gray-500">
+            <p className="mt-8 text-center !text-gray-500">
                 User currency and transaction status will be displayed here.
             </p>
         </div>
