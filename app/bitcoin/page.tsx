@@ -44,7 +44,7 @@ const BitcoinSample: React.FC = () => {
             >
                 ← Back Home
             </Link>
-            <h1 className="text-3xl font-bold my-4">Bitcoin Donation Sample</h1>
+            <h1 className="text-3xl !text-white font-bold my-4">Bitcoin Donation Sample</h1>
             <div>
                 <p><strong>Donation Wallet Address:</strong> {generatedAddress}</p>
                 <div className="mt-4">

@@ -69,7 +69,7 @@ const EtherSample: React.FC = () => {
             >
                 ← Back Home
             </Link>
-            <h1 className="text-3xl font-bold my-4">Ether Donation Sample</h1>
+            <h1 className="text-3xl !text-white font-bold my-4">Ether Donation Sample</h1>
             {!isWeb3 && (
                 <p className="text-red-500">No Web3 provider detected. Please install MetaMask.</p>
             )}
